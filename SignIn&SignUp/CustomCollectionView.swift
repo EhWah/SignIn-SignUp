@@ -11,6 +11,7 @@ import UIKit
 class CustomCollectionView: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     let cellId = "cellId"
+    let headerId = "headerId"
     //var posts = [String]()
     
     
@@ -20,6 +21,7 @@ class CustomCollectionView: UICollectionViewController, UICollectionViewDelegate
         
         collectionView.backgroundColor = .white
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: cellId)
+        collectionView.register(CustomHeaderViewController.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -58,6 +60,10 @@ class CustomCollectionView: UICollectionViewController, UICollectionViewDelegate
         
         let width = (view.frame.width - reduceSpace) / numberOfCell
         return CGSize(width: width, height: width)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
+        return CGSize(width: view.frame.width, height: 200)
     }
     
     

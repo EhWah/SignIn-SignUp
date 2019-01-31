@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB00E7132203A3A900E3DD33 /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB00E7122203A3A900E3DD33 /* CustomHeaderView.swift */; };
 		FBFBEDC7220366E300DF06B5 /* CustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFBEDC6220366E300DF06B5 /* CustomCollectionView.swift */; };
 		FBFFD0F32202307A001825EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFFD0F22202307A001825EE /* AppDelegate.swift */; };
 		FBFFD0F52202307A001825EE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFFD0F42202307A001825EE /* LoginViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB00E7122203A3A900E3DD33 /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
 		FBFBEDC6220366E300DF06B5 /* CustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionView.swift; sourceTree = "<group>"; };
 		FBFFD0EF2202307A001825EE /* SignIn&SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignIn&SignUp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBFFD0F22202307A001825EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				FBFFD0F42202307A001825EE /* LoginViewController.swift */,
 				FBFFD10622023F39001825EE /* SignUpViewController.swift */,
 				FBFBEDC6220366E300DF06B5 /* CustomCollectionView.swift */,
+				FB00E7122203A3A900E3DD33 /* CustomHeaderView.swift */,
 				FBFFD104220231F6001825EE /* Extension.swift */,
 				FBFFD0F62202307A001825EE /* Main.storyboard */,
 				FBFFD0F92202307C001825EE /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				FBFFD105220231F6001825EE /* Extension.swift in Sources */,
 				FBFFD0F52202307A001825EE /* LoginViewController.swift in Sources */,
 				FBFFD10722023F39001825EE /* SignUpViewController.swift in Sources */,
+				FB00E7132203A3A900E3DD33 /* CustomHeaderView.swift in Sources */,
 				FBFFD0F32202307A001825EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
